@@ -2,10 +2,11 @@
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
+
 def batch_badge_creator(speakers)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   speakers.map do |name|
-    "Hello, my name is #{name}"
+    "Hello, my name is #{name}."
   end
 end
 
